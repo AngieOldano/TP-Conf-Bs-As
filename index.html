@@ -17,15 +17,18 @@
 
   <head>
 
-    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body " data-bs-theme="dark">
+    <nav class="navbar fixed-top navbar-expand-lg bg-dark" data-bs-theme="dark">
       <div class="container text-white">
-        <div>
+        <div >
           <a class="navbar-brand" href="#">
             <img src="imagenes/codoacodo.png" width="100" alt="">
             Conf Bs As
           </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
-        <div>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav text-white">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
@@ -43,7 +46,7 @@
               <a class="nav-link text-success" href="#">Comprar tickets</a>
             </li>
           </ul>
-
+          
         </div>
       </div>
     </nav>
@@ -57,9 +60,9 @@
 
       <div class="position-relative">
         <img class="imagen-inicio" src="imagenes/ba1.jpg" alt="">
-        <div class=" container-fluid position-absolute bottom-50 start-0 p-5 text-white text-end">
+        <div class="position-absolute top-50 start-50 translate-middle-y text-white text-end m-5">
           <h4>Conf Bs-As</h4>
-          <p class="text-justify">Bs As llega por primera vez a Argentina. Un Evento para compartir
+          <p class="">Bs As llega por primera vez a Argentina. Un Evento para compartir
             con nuestra comunidad el conocimiento y experiencia de los
             expertos que están creando el futuro de Internet. Ven a conocer a
             miembres del evento, a otros estudiantes de Codo a Codo y los
@@ -153,7 +156,7 @@
             </div>
           </div>
           <div class="mb-3 mt-3">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Sobre qué quieres hablar?"></textarea>
+            <textarea class=  "form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Sobre qué quieres hablar?"></textarea>
             <label for="exampleFormControlTextarea1" class="form-label">Recuerda incluir un titulo para tu charla.</label>
           </div>
           <div class="pb-5">
@@ -166,9 +169,8 @@
 
   </main>
 
-  <footer>
-
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+  <footer class="mt-5">
+    <nav class="navbar fixed-bottom navbar-expand-lg bg-dark" data-bs-theme="dark">
       <div class="container text-white justify-content-center">
         <ul class="navbar-nav text-white justify-content-between">
           <li class="nav-item mx-3">
@@ -195,9 +197,6 @@
         </ul>
       </div>
     </nav>
-    
-
-
   </footer>
 
 </body>
