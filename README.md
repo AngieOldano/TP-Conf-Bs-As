@@ -11,4 +11,4 @@ Deberán replicar la siguiente página principal con lo visto en clase hasta el 
 Deberán replicar la siguiente sección  al presionar en el enlace “tickets”.
 <br>
 Deberá contener la funcionalidad en Javascript, al momento de presionar el botón “Resumen”, deberá mostrar en la sección “Total a Pagar: $”, el monto correspondiente a la cantidad de tickets a comprar con el descuento correspondiente dependiendo la categoría seleccionada, existen 3 categorías, Estudiante, Trainee, Junior.
-![final_front_2021](https://github.com/AngieOldano/TP-Conf-Bs-As/blob/main/final_front_2021.jpg?raw=true)
+![final_front_2021](https://github.com/AngieOldano/TP-Conf-Bs-As/blob/main/Final_js_front_2021.png?raw=true)
